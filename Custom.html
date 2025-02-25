@@ -17,18 +17,28 @@
         background: var(--Button, linear-gradient(90deg, rgba(247, 150, 64, 0.70) 0.5%, rgba(237, 123, 226, 0.70) 52%, rgba(92, 179, 230, 0.70) 97.5%));
     }
 
-    .linear-text {
-    background: var(--Apple-Intelligence, linear-gradient(270deg, #C89FFC 24.19%, #E04FC6 48.03%, #FC5F3D 76.79%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-}
+    .custom-btn2 {
+        display: flex;
+        padding: 20px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 76px;
+        background: var(--Aurora-AI-Spectrum, linear-gradient(90deg, #009EEC 0%, #00D4FF 50%, #00FF85 100%));
+        
+    }
 
+    .linear-text {
+        background: var(--Apple-Intelligence, linear-gradient(270deg, #C89FFC 24.19%, #E04FC6 48.03%, #FC5F3D 76.79%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
 </style>
 
 <body>
-    <button class="custom-btn">Hi</button>
+    <button class="custom-btn2">Hi</button>
 
     <p class="linear-text">Hello text </p>
 </body>
